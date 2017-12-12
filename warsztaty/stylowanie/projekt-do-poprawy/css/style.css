@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    font-family: "Lato", "sans-serif";
+}
+
+nav#menu {
+
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav#menu > ul {
+    margin: 0;
+}
+
+nav#menu > ul > li.menu-item {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav#menu > ul > li.menu-item > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu > ul > li.menu-item > a:hover {
+    color: gray;
+}
+
+
+
+
+/*HEADER*/
+
+header#header {
+    position: relative;
+}
+
+header#header > img {
+    width: 100%;
+    
+}
+
+header#header > div {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+/*ABOUT*/
+
+section#about {
+    text-align: center;
+
+}
+
+
+
+
+/*KONTAKT*/
+
+footer#contact {
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+footer#contact > h2#contact-header {
+
+    padding=100px;
+}
+
+footer#contact > address#contact-content {
+    font-style: normal;
+}
+
+
+footer#contact > p > a {
+    color: white;
+}
+
+footer#contact > p > a:hover {
+    color: gray;
+}

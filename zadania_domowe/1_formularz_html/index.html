@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="referrer" content="origin">
+</head>
+
+<body>
+    <h1 class="border" id="title">Formularz kontaktowy dla kandydata na kurs</h1>
+    <form method="POST" class="border" action="http://formspree.io/kazmierczak88@gmail.com">
+        <label for="first_name">Imie:</label><br>
+        <input type="text" id="first_name" name="first_name" ><br>
+        <label for="last_name">Nazwisko:</label><br>
+        <input type="text" id="last_name" name ="last_name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Telefon:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="city">Miasto:</label><br>
+        
+        <select name="miasto" id="city">
+               <option value="krakow">Krakow</option>
+               <option value="warszawa">Warszawa</option>
+               <option value="gdansk">Gdansk</option>
+        </select><br>
+        
+        
+        <p>Plec:</p><br>
+        
+        <input type="radio" name="sex" value="m" id="male" checked><label for="male">M</label><br>
+        <input type="radio" name="sex" value="k" id="female"><label for="female">K</label><br>
+        <input type="radio" name="sex" value="inna" id="other"><label for="other"></label>Inna<br>
+
+
+        <div>
+            <input type="checkbox" id="zgoda" name="zgoda" required><label for="zgoda">Wyrazam zgode na przetwarzanie <br>danych osobowych</label><br>
+        </div>
+
+
+        <label for="msg">Wiadomosc:</label><br>
+        <textarea name="wiadomosc" id="msg" cols="30" rows="10"></textarea>
+
+        <input type="submit" id="submit" value="wyslij">
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
