@@ -1,24 +1,26 @@
-body {
-
-    background-color: aqua;
+body{
+    margin: 0;
+    padding: 0;
 }
 
 div.square {
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 100px;
-    text-align: center;
-    display: block;
-    -webkit-transition-property: top, bottom;
-    -webkit-transition-duration: 0.5s;
+    height: 50vh;
+    width: 50vw;
+    background-image: url("../img/2-jezioro.jpg");
+    background-size: cover;
+    
+    position: absolute;
+    top: 25%;
+    left: 25%
 }
 
 
 div.square:hover {
+   background-image: none;
+    
     color: black;
     background-color: yellow;
-    height: 400px;
-    width: 400px;
+  
+    
+    
 }
