@@ -12,6 +12,7 @@
     }
     h1 {
         padding-top: 10%;
+        margin: 0;
     }
     .brag {
         padding-left: 55%;
@@ -30,6 +31,7 @@
         }
         h1 {
             padding-top: 25%;
+            margin: 0;
         }
 
         .brag {
