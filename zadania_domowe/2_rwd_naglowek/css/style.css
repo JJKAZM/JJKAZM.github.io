@@ -23,8 +23,9 @@ body {
     font-family: "Verdana", sans-serif;
 }
 h1 {
+    margin: 0;
     font-size: 1em;
 }
 h2 {
     font-size: 1.5em;
-}
+}           
