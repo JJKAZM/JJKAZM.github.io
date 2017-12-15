@@ -12,7 +12,7 @@ body {
     text-align: center;
     background-image: url("../img/man-1.jpg");
     background-position: center top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #main_header > div.main_header_content > div#back {

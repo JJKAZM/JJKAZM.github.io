@@ -4,7 +4,7 @@
         text-align: left;
         background-image: url("../img/man-2.jpg");
         background-position: center top;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     #main_header > div.main_header_content > div#back {
@@ -22,7 +22,7 @@
             height: 100vh;
             background-image: url("../img/man-1.jpg");
             background-position: center top;
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
         }
         #main_header > div.main_header_content > div#back {
